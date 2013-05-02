@@ -1,0 +1,71 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/finalbg"
+    android:gravity="top"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main" >
+
+    <ImageButton
+        android:id="@+id/imagebuttonnew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_toLeftOf="@+id/imagebuttonteam"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/imagebuttonnew1" />
+
+    <ImageButton
+        android:id="@+id/imagebuttoninfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imagebuttonnew"
+        android:layout_below="@+id/imagebuttonnew"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/imagebuttoninfo1" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagebuttoninfo"
+        android:layout_toLeftOf="@+id/imagebuttonteam"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/imagebuttonexit1" />
+
+    <ImageButton
+        android:id="@+id/imagebuttonteam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/title"
+        android:layout_below="@+id/imagebuttonexit"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/roundbutton" />
+
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/title" />
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignTop="@+id/title"
+        android:contentDescription="@string/desc"
+        android:src="@drawable/loading" />
+ 	
+</RelativeLayout>
+
+
